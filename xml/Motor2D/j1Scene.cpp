@@ -44,7 +44,7 @@ bool j1Scene::PreUpdate()
 // Called each loop iteration
 bool j1Scene::Update(float dt)
 {
-	App->render->Blit(img, 100, 100);
+	App->render->Blit(img, 50, 50);
 	return true;
 }
 
